@@ -1,0 +1,87 @@
+*{
+    margin: auto;
+    padding: 0.8rem;
+}
+
+.news > img{
+    width: 150px;
+    height: 170px;
+    border-radius: 15%;
+}
+
+.div > ul >li{
+    text-decoration: none;
+}
+
+nav{
+    position: sticky;
+    background-color: powderblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    box-shadow: o 3px 5px;
+    justify-items: flex-start;
+}
+
+.top > h1{
+    color: aqua;
+    background-color: black;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 1.2rem;
+}
+
+nav > ul > li{
+    color: steelblue;
+}
+
+.top > p{
+    background-color: powderblue;
+    color: black;
+    border-radius: 1.3rem;
+}
+
+a:hover{
+    color: rgb(255, 123, 75);
+    text-decoration: none;
+}
+
+nav > footer{
+    text-align: center;
+    justify-items: flex-start;
+    padding: 0.2rem;
+    display: flex;
+    color: black;
+}
+
+.container{
+    background-color: antiquewhite;
+    border-radius: 1rem;
+}
+
+.ft{
+    border-radius: 1.2rem;
+    padding: auto;
+}
+
+.menu-list > ul{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border-radius: 1.2rem;
+    background-color: powderblue;
+    color: powderblue;
+    text-decoration: none;
+    position: sticky;
+}
+
+.plus{
+    box-shadow: outset;
+    /* background-color: powderblue; */
+    border-radius: 1.3rem;
+}
+
+.vid-tin{
+    box-shadow: outset;
+    background-color: blue;
+}
